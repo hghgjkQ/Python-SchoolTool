@@ -1,0 +1,3 @@
+
+cd C:\Users\Administrator\Desktop\无python环境下的Debug工具
+pyinstaller --onefile --noconsole --icon="icon.ico" --name="DebugTool" --version-file="info.txt" "main.py"

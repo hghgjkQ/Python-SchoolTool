@@ -1,0 +1,33 @@
+# info.txt
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),  # 文件版本号 (主版本, 次版本, 修订号, 构建号)
+    prodvers=(1, 0, 0, 0),  # 产品版本号
+    mask=0x3f,              # 固定值，无需修改
+    flags=0x0,              # 固定值，无需修改
+    OS=0x40004,             # 系统标识（0x40004表示Windows NT）
+    fileType=0x1,           # 文件类型（0x1表示应用程序）
+    subtype=0x0,            # 子类型（0x0表示无）
+    date=(0, 0)             # 日期（无需修改）
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          u'080404B0',  # 语言代码（0409表示英语，0804表示中文）
+          [
+            StringStruct(u'CompanyName', u'hghgjk独自开发'),  # 公司名称
+            StringStruct(u'FileDescription', u'用于在无python环境下的Debug和py代码运行'),  # 文件描述
+            StringStruct(u'FileVersion', u'1.0.0.0'),  # 文件版本
+            StringStruct(u'InternalName', u'DebugTool'),  # 内部名称
+            StringStruct(u'LegalCopyright', u'© 2025 hghgjk. 保留所有权利'),  # 版权信息
+            StringStruct(u'OriginalFilename', u'DebugTool.exe'),  # 原始文件名
+            StringStruct(u'ProductName', u'DebugTool'),  # 产品名称
+            StringStruct(u'ProductVersion', u'1.0.0.0')  # 产品版本
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct(u'Translation', [0x0804, 0x04B0])])  # 与上面的语言代码对应
+  ]
+)
