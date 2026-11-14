@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),    # 文件版本 1.0.0.0
+    prodvers=(1, 0, 0, 0),   # 产品版本 1.0.0.0
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'080404b0',
+        [StringStruct(u'CompanyName', u'个人制作者'),          # 公司名称
+        StringStruct(u'FileDescription', u'第一届学长做的倒计时软件'),# 文件描述
+        StringStruct(u'FileVersion', u'1.0.0.0'),           # 文件版本
+        StringStruct(u'InternalName', u'count'),        # 内部名称
+        StringStruct(u'LegalCopyright', u'By hghgjk'),   # 版权信息
+        StringStruct(u'OriginalFilename', u'倒计时.exe'),  # 原始文件名
+        StringStruct(u'ProductName', u'倒计时'),     # 产品名称
+        StringStruct(u'ProductVersion', u'1.0.0.0')])       # 产品版本
+      ]
+    ), 
+    VarFileInfo([VarStruct(u'Translation', [2052, 1200])])
+  ]
+)
