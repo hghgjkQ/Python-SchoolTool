@@ -1,0 +1,23 @@
+# 简单的Python代码编辑器
+# 在这里编写您的Python代码
+# 代码会自动保存到data.txt文件中
+
+print("Hello, World!")
+
+def example_function():
+    """这是一个示例函数"""
+    for i in range(5):
+        print(f"计数: {i}")
+        
+class ExampleClass:
+    """示例类"""
+    def __init__(self, name):
+        self.name = name
+    
+    def greet(self):
+        return f"Hello, {self.name}!"
+
+if __name__ == "__main__":
+    example_function()
+    obj = ExampleClass("Python")
+    print(obj.greet())
