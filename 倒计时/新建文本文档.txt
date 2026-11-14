@@ -1,0 +1,7 @@
+pyinstaller -F -w ^
+--name 倒计时 ^
+--icon ico.ico ^
+--version-file version.txt ^
+--add-data "a.mp3;." ^
+--add-data "b.mp3;." ^
+main.py
